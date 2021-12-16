@@ -312,6 +312,16 @@ footer {
     margin-left: 4px;
 }
 
+.row-contact-content .col-1 {
+    text-align: center;
+}
+
+.row-contact-content .col-1 i {
+    width: 100%;
+    padding: 0;
+    vertical-align: middle;
+}
+
 .media-links-footer a {
     color: white;
     font-size: 25px;
