@@ -158,6 +158,7 @@ input.form-control:focus {
     font-weight: bold;
     border-bottom: 3px solid rgb(255, 255, 255);
     padding-bottom: 3px;
+    width: 100%;
 }
 
 .card button {
@@ -340,7 +341,4 @@ footer {
     .row-contact-content p {
         font-size: 20px;
     }
-
-    .card h1 {
-        font-size: 35px;
 }
