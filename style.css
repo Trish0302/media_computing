@@ -340,4 +340,7 @@ footer {
     .row-contact-content p {
         font-size: 20px;
     }
+
+    .card h1 {
+        font-size: 35px;
 }
