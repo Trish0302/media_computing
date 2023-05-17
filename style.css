@@ -1,22 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap");
 
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-radius: 0px 0px 8px 8px;
-    z-index: 1000;
-}
-
-.navbar-brand {
-    font-size: 25px;
-    text-shadow: 2px 2px rgba(229, 226, 226, 0.3);
+nav {
+    border-radius: 0 0 10px 10px !important;
 }
 
 .nav-link {
@@ -40,25 +25,24 @@
     color: rgba(255, 255, 255, 0.678) !important;
     font-size: 13px;
 }
-  
 
 input.form-control {
     font-size: 13px;
     border-radius: 0;
     background-color: transparent;
-    color:#fff;
+    color: #fff;
     width: 160px !important;
 }
 
 input.form-control:focus {
     background-color: transparent;
-    color:#fff;
+    color: #fff;
     box-shadow: none;
 }
 
 #search-btn {
     background-color: transparent;
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
 }
 
 #search-btn:hover {
@@ -69,7 +53,8 @@ input.form-control:focus {
     border-bottom: 1px solid rgb(255, 255, 255) !important;
 }
 
-.btn:focus, .btn:active {
+.btn:focus,
+.btn:active {
     box-shadow: none !important;
 }
 
@@ -79,14 +64,15 @@ input.form-control:focus {
     }
 
     .nav-link {
-      padding-left: 0 !important;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: inline-block;
+        padding-left: 0 !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
     }
+
     .navbar-brand {
-        margin: auto; 
-        text-align: center; 
+        margin: auto;
+        text-align: center;
         display: block;
     }
 
@@ -95,10 +81,11 @@ input.form-control:focus {
         display: inline-block;
     }
 
-    #title, #content {
+    #title,
+    #content {
         text-align: center;
     }
-  }
+}
 
 .row {
     display: flex;
@@ -111,7 +98,7 @@ input.form-control:focus {
     font-family: 'Bebas Neue', cursive;
     font-size: 55px;
     line-height: 70px;
-    
+
 }
 
 #content {
@@ -187,7 +174,7 @@ input.form-control:focus {
     font-size: 50px;
     color: #2a343a;
     font-family: 'Bebas Neue', cursive;
-    
+
 }
 
 .image {
@@ -274,6 +261,95 @@ input.form-control:focus {
     color: #0191eb;
 }
 
+.info-card {
+    width: 90%;
+    height: auto;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+    transition: linear 0.4s;
+}
+
+.info-card:hover {
+    background-color: rgba(224, 224, 224, 0.603);
+}
+
+.card-img-top {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100% !important;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    letter-spacing: 1.5px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.301);
+    padding-top: 10px;
+}
+
+.media-links a {
+    padding: 0 15px;
+    color: #7a858b;
+    font-size: 20px;
+}
+
+.media-links a:hover {
+    color: #0191eb;
+}
+
+/* contact */
+
+.contact-content {
+    gap: 30px;
+}
+
+.contact-item {
+    border: 1px solid #3d647d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 10px !important;
+    margin: 0 20px;
+    transition: 0.3s linear;
+}
+
+.contact-item:hover {
+    background-color: #7cbae11c;
+    box-shadow: 3px 2px 2px rgb(156, 156, 156);
+}
+
+.contact-item-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-item-icon {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    background-color: #70b5df84;
+}
+
+.contact-item-icon i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
 #footer-wrapper {
     height: auto;
     background-color: #385f77;
@@ -288,8 +364,6 @@ footer {
     padding: 0 16px;
     border-bottom: 1px solid rgb(214, 214, 214);
 }
-
-
 
 #contact-info-title {
     font-size: 20px;
